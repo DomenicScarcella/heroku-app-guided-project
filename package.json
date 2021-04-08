@@ -1,12 +1,12 @@
 {
-  "name": "heroku-app-guided-project",
+  "name": "herokuApp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "heroku-post-build": "cd client && npm i && npm run build"
+    "heroku-postbuild": "cd client && npm i && npm run build"
   },
   "keywords": [],
   "author": "",
